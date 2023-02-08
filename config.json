@@ -1,0 +1,35 @@
+{
+    "0": {
+        "number": 1,
+        "enable": "false",
+        "name": "New Deck 1",
+        "ip": "0.0.0.0",
+        "model": "mini"
+    },
+    "1": {
+        "number": 2,
+        "enable": "false",
+        "name": "New Deck 2",
+        "ip": "0.0.0.0",
+        "model": "mini"
+    },
+    "2": {
+        "number": 3,
+        "enable": "false",
+        "name": "New Deck 3",
+        "ip": "0.0.0.0",
+        "model": "mini"
+    },
+    "global": {
+        "enableLogin": "false",
+        "ffspeed": "1600",
+        "rwspeed": "-800",
+        "looping": "clip",
+        "avatarEnable": "true",
+        "avatarUrl": "images\/avatar.png",
+        "timezone": "America\/New_York",
+        "timerInterval": "20",
+        "totalDecks": "3",
+        "fnUser": "%year%month%day-%deckname"
+    }
+}

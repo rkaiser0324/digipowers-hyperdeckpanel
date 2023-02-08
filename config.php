@@ -18,8 +18,9 @@
 
 //HYPERDECK CONTROL PANEL CONFIG
       // Reading the config data
-      $configtxt = file_get_contents('config.txt'); 
-      $config = unserialize($configtxt);
+      $configjson = file_get_contents('config.json'); 
+      $config = json_decode($configjson, ARRAY_A);
+
       //Globals
       $startkey = "status:";
       $endkey = "speed:";
